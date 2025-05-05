@@ -28,6 +28,6 @@ To begin with, please download the [Prevention Dataset](https://prevention-datas
 
 ## References
 
-- [aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception](https://arxiv.org/pdf/2211.09445)
-- [The PREVENTION dataset: a novel benchmark for PREdiction of VEhicles iNTentIONs](https://prevention-dataset.uah.es/static/ThePREVENTIONdataset.pdf)
-- [Fusion Point Prunning for Optimized 2D Object Detection with Radar-Camera Fusion](https://openaccess.thecvf.com/content/WACV2022/papers/Stacker_Fusion_Point_Pruning_for_Optimized_2D_Object_Detection_With_Radar-Camera_WACV_2022_paper.pdf)
+- aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception [[link]](https://arxiv.org/pdf/2211.09445)
+- The PREVENTION dataset: a novel benchmark for PREdiction of VEhicles iNTentIONs [[link]](https://prevention-dataset.uah.es/static/ThePREVENTIONdataset.pdf)
+- Fusion Point Prunning for Optimized 2D Object Detection with Radar-Camera Fusion [[link]](https://openaccess.thecvf.com/content/WACV2022/papers/Stacker_Fusion_Point_Pruning_for_Optimized_2D_Object_Detection_With_Radar-Camera_WACV_2022_paper.pdf)
