@@ -9,9 +9,10 @@ To tackle this challenge, we will perform Vision-Radar Fusion in the image-space
 ## Radar to Image projection examples
 
 ### ALTOS Radar 4D (Azimuth, Elevation, Range & Velocity) Radar Projection
-
+![Alt text](media/altos_4D_radar.png)
 
 ### Standard 3D (Azimuth, Range & Velocity) Automotive Radar Projection
+![Alt text](media/standard_radar.png)
 
 ## Image-Space Fusion
 
@@ -19,12 +20,21 @@ Once RADAR points are projected into the image space, they can be associated wit
 
 ## Datasets
 
-To begin with, please download the [Prevention Dataset](https://prevention-dataset.uah.es/) and the [aiMotive Multi-Modal Dataset](https://www.kaggle.com/datasets/tamasmatuszka/aimotive-multimodal-dataset) as initial datasets which can be used to develop and test Image-Space Fusion algorithm. There are 4 key steps to developing the Image-Space Fusion Pipeline.
+To begin with, please download the  and the  as initial datasets which can be used to develop and test Image-Space Fusion algorithm.
 
-- Step 1: Parse raw data
-- Step 2: Back-project RADAR points to front image
-- Step 3: Associate RADAR points with SceneSeg labels
-- Step 4: Project filtered RADAR points to 3D space and create BEV image
+Initial datasets for developing and testing Image-Space Fusion algorithms:
+
+- [aiMotive Multi-Modal Dataset](https://www.kaggle.com/datasets/tamasmatuszka/aimotive-multimodal-dataset)
+- [Prevention Dataset](https://prevention-dataset.uah.es/)
+
+## Workflow for Vision-RADAR Fusion 
+
+There are 4 key steps to developing the Image-Space Fusion Pipeline.
+
+- **Step 1**: Parse raw data
+- **Step 2**: Back-project RADAR points to front image
+- **Step 3**: Associate RADAR points with SceneSeg labels
+- **Step 4**: Project filtered RADAR points to 3D space and create BEV image
 
 ## References
 
